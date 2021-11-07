@@ -6,9 +6,9 @@
 #define bufferSize 8192
 #define SerialBufferSize 64
 
-#define WiFi_Access_Point_Name "SynScan_WiFi_1234"   // Name of the WiFi access point this device will create for your tablet/phone to connect to.
-#define WiFi_Password "password"
-#define udpPort 11880 // UDP udpPort expected by SynScan
+#define WiFi_Access_Point_Name "SynScan_WiFi_1234"              // WiFi SSID (you may change this)
+#define WiFi_Password "password"                                // WiFi Password (you may change this)
+#define udpPort 11880
 WiFiUDP udp;
 IPAddress remoteIp;
 int UDPremoteudpPort;
