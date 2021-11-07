@@ -13,7 +13,10 @@ Wemos GND <> Mount GND
 Wemos RX <TTL Shifter> Mount TX
   
 Wemos TX <TTL Shifter> Mount RX
+
   
+  ![alt text](https://github.com/CyberianIce/SyntaWiFi/blob/master/schematics.png)
+
   
 
 Wemos D1 Mini UART works on 3.3V logic level therefore bi-directional logic level shifter is required in between (3.3V <-> 5V). TTL shifter can be powered from Wemos D1 Mini PCB (from pins 5V, 3.3V and GND), but Wemos itself may consume lot of current (up to 660 mA) and therefore it must be powered from standalone 5V power supply (NOT FROM ARDUINO 5V PIN!)
