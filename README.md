@@ -1,7 +1,7 @@
 # SyntaWiFi
 Control your telescope wirelessly with ESP8266.
 
-I use this sektch on Wemos D1 Mini to controll my AstroEQ mount wirelessly with SynScan Pro app.
+I use this sektch on Wemos D1 Mini to controll my AstroEQ mount wirelessly with SynScan Pro app. It's based on existing project but adapted to wrok on Wemos D1 Mini (wemos can not work with swapped pins and TTL shifter - this will burn the board, therefore in this prject I use standard UART, and logger had to be removed completley)
 
 Connections:
 
