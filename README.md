@@ -20,6 +20,7 @@ Wemos D1 Mini UART works on 3.3V logic level therefore bi-directional logic leve
   
 
 WiFi SSID: SynScan_WiFi_1234
+  
 WiFi password: password
   
 
